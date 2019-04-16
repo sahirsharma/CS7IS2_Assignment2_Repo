@@ -1,11 +1,22 @@
-# CS7IS2_Assignment2_Repo
-Artificial Intelligence (CS7IS2) Assignment 2 Repository
+# Artificial Intelligence (CS7IS2) Assignment 2 Repository
 
 
 <h1>Topic: Benchmarking State-of-The-Art Image Recognition techniques for image classification</h1>>
-<P>
-	
-</P>
+<p>
+	A subset of size = 3500 images was taken from the validation set of the ImageNet 2012 challenge. Pre-trained models from the Keras module in TensorFlow were used to make predictions on the input data. The top-k accuracy for k in range[1,10] were recorded and analysed for all models used in the experiment.
+</p>>
+<p>
+	#Components: <br>
+	<1> Data_PreProcessing.ipynb : Data preprocessing script <br>
+	<2> Benchmark_Keras.ipynb : BenchMaeking Logic <br>
+</p>>
+<p>
+	#Prerequisites: <br>
+	<1> All the data files in 'imagenet_validation_meta_data' folder <br>
+	<2> 3500 from ImageNet dataset<br>
+	<3> All these files must be copied to appropriate file-paths, as used in the .ipynb scripts
+		The image-label mapping logic may needs to be changed depending on the images used 
+</p>>
 
 
 <h1>Results</h1>
