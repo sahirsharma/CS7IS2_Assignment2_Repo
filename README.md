@@ -1,6 +1,26 @@
 # CS7IS2_Assignment2_Repo
 Artificial Intelligence (CS7IS2) Assignment 2 Repository
 
-Team Members: 
-<br>1) Swastik Sahu (Trinity Student ID: 18303449; sahus@tcd.ie)
-<br>2) Sahir Sharma (Trinity Student ID: 18303468; sharmas5@tcd.ie)
+
+<h1>Topic: Benchmarking State-of-The-Art Image Recognition techniques for image classification</h1>>
+<P>
+	
+</P>
+
+
+<h1>Results</h1>
+
+| .                   | Top-1 | Top-2 | Top-3 | Top-4 | Top-5 | Top-6 | Top-7 | Top-8 | Top-9 | Top-10 | 
+|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------| 
+| VGG16               | 0.7   | 0.81  | 0.86  | 0.89  | 0.9   | 0.91  | 0.92  | 0.93  | 0.93  | 0.94   | 
+| VGG19               | 0.7   | 0.82  | 0.86  | 0.89  | 0.9   | 0.91  | 0.92  | 0.92  | 0.93  | 0.93   | 
+| RESNET50            | 0.75  | 0.85  | 0.89  | 0.91  | 0.92  | 0.93  | 0.94  | 0.95  | 0.95  | 0.95   | 
+| DENSENET121         | 0.75  | 0.86  | 0.9   | 0.92  | 0.93  | 0.94  | 0.94  | 0.95  | 0.95  | 0.96   | 
+| DENSENET169         | 0.76  | 0.87  | 0.91  | 0.93  | 0.94  | 0.95  | 0.95  | 0.96  | 0.96  | 0.96   | 
+| DENSENET201         | 0.77  | 0.87  | 0.9   | 0.93  | 0.94  | 0.95  | 0.95  | 0.95  | 0.96  | 0.96   | 
+| INCEPTIONV3         | 0.78  | 0.88  | 0.91  | 0.92  | 0.94  | 0.95  | 0.95  | 0.95  | 0.96  | 0.96   | 
+| INCEPTION_RESNET_V2 | 0.79  | 0.9   | 0.93  | 0.94  | 0.95  | 0.96  | 0.97  | 0.97  | 0.97  | 0.98   | 
+| XCEPTION            | 0.79  | 0.89  | 0.92  | 0.94  | 0.95  | 0.95  | 0.96  | 0.96  | 0.97  | 0.97   | 
+| NASNET              | 0.82  | 0.91  | 0.94  | 0.96  | 0.96  | 0.97  | 0.97  | 0.97  | 0.98  | 0.98   | 
+
+![](results/accuracy_top_k.png)
